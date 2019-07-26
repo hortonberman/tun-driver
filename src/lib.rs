@@ -2,7 +2,7 @@
     html_root_url = "https://docs.rs/tun-tap/0.1.2/tun-tap/",
     test(attr(deny(warnings), allow(unused_variables)))
 )]
-#![deny(missing_docs)]
+
 
 //! A TUN/TAP bindings for Rust.
 //!
@@ -33,7 +33,7 @@ use std::io::{Error, Read, Result, Write};
 use std::os::raw::{c_char, c_int};
 use std::os::unix::io::{AsRawFd, IntoRawFd, RawFd};
 
-#[cfg(feature = "tokio")]
+
 pub mod async;
 
 extern "C" {

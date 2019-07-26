@@ -1,7 +1,7 @@
 # TunTap
 
 [![Travis Build Status](https://api.travis-ci.org/vorner/tuntap.png?branch=master)](https://travis-ci.org/vorner/tuntap)
-it's derive https://github.com/vorner/tuntap,add new tokio default handle.
+it's derive https://github.com/vorner/tuntap,    add new tokio default handle.
 TUN/TAP wrapper for Rust.
 
 The TUN/TAP allows implementing a virtual network adapter in userspace. This

@@ -1,19 +1,19 @@
 [package]
 name = "tun-tap-new"
 # Also don't forget to update the version in the html_root_url attribute in src/lib.rs
-version = "0.1.0"
-authors = ["Michal 'vorner' Vaner <vorner@vorner.cz>"]
+version = "0.1.0" # Needs a version bump + release
+authors = ["Michal 'vorner' Vaner <vorner@vorner.cz>"] # Please add yourself here
 description = "TUN/TAP interface wrapper"
-documentation = "https://docs.rs/tun-tap"
-repository = "https://github.com/vorner/tuntap"
+documentation = "https://docs.rs/tun-driver"
+repository = "https://github.com/hortonberman/tundriver"
 readme = "README.md"
 keywords = ["tun", "tap", "network"]
 categories = ["network-programming"]
 license = "Apache-2.0/MIT"
 
 [badges]
-travis-ci = { repository = "vorner/tuntap" }
-maintenance = { status = "passively-maintained" }
+# travis-ci = { repository = "vorner/tuntap" } ‒ either set your own travis or remove
+maintenance = { status = "passively-maintained" } # You want to decide if/how you maintain this
 
 
 

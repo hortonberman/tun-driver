@@ -2,7 +2,7 @@
 name = "tun-tap-new"
 # Also don't forget to update the version in the html_root_url attribute in src/lib.rs
 version = "0.1.0" # Needs a version bump + release
-authors = ["Michal 'vorner' Vaner <vorner@vorner.cz>"] # Please add yourself here
+authors = ["Michal 'vorner' Vaner <vorner@vorner.cz>","hortonbermen"] # Please add yourself here
 description = "TUN/TAP interface wrapper"
 documentation = "https://docs.rs/tun-driver"
 repository = "https://github.com/hortonberman/tundriver"
